@@ -17,7 +17,7 @@ OUTPUT:
 
 =====================================================================================================================
 
- # Using np.where() method in 3d array
+# Using np.where() method in 3d array
 import numpy as np
 arr3 = np.array([[[1,25,12],[43,14,45]],[[95,46,78],[17,38,12]]])
 print(arr3.ndim)
