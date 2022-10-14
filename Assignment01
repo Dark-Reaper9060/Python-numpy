@@ -1,12 +1,14 @@
 # Using np.sort() method in 3d array
 import numpy as np
 arr3 = np.array([[[1,25,2],[43,14,3]],[[95,46,23],[17,38,12]]])
+print(arr3.ndim)
 for i in np.sort(arr3):
   print(i)
 print(np.sort(np.nditer(arr3)))
 
 OUTPUT:
 
+3
 [[ 1  2 25]
  [ 3 14 43]]
 [[23 46 95]
@@ -18,8 +20,10 @@ OUTPUT:
  # Using np.where() method in 3d array
 import numpy as np
 arr3 = np.array([[[1,25,12],[43,14,45]],[[95,46,78],[17,38,12]]])
+print(arr3.ndim)
 print(np.where(arr3 == 38))
 
 OUTPUT:
 
+3
 (array([1]), array([1]), array([1]))
